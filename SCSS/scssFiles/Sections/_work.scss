@@ -1,0 +1,594 @@
+.work 
+{
+    background:$light-dark;
+    font-size:0;
+    height:550px;
+    margin:0;
+    padding:0;
+    width:100%;
+    .work-content
+    {
+        align-items:center;
+        display:flex;
+        height:100%;
+        justify-content:center;
+        margin:0;
+        padding:0;
+        .work-content-elements 
+        {
+            margin:0;
+            padding:0;
+            width:900px;
+            .work-content-elements-block 
+            {
+                display:flex;
+                justify-content:center;
+                margin:0;
+                padding:0;
+                .work-content-elements-block-area 
+                {
+                    display:inline-block;
+                    margin:0;
+                    padding:0;
+                    .work-content-elements-block-area-heading 
+                    {
+                        margin:10px 0 0 0;
+                        padding:0;
+                    }
+                    .work-content-elements-block-area-icon 
+                    {
+                        display:flex;
+                        justify-content:center;
+                        margin:0;
+                        padding:0;
+                        .work-content-elements-block-area-icon-ellipse 
+                        {
+                            align-items:center;
+                            background:$ellipse-large;
+                            border-radius:50%;
+                            display:flex;
+                            height:100px;
+                            justify-content:center;
+                            margin:0;
+                            padding:0;
+                            width:100px;
+                            .work-content-elements-block-area-icon-ellipse-two
+                            {
+                                align-items:center;
+                                background:$dark-purple;
+                                border-radius:50%;
+                                display:flex;
+                                height:86px;
+                                justify-content:center;
+                                margin:0;
+                                padding:0;
+                                width:86px;
+                                .work-content-elements-block-area-icon-ellipse-three 
+                                {
+                                    align-items:center;
+                                    background:$light-dark;
+                                    border-radius:50%;
+                                    display:flex;
+                                    height:60px;
+                                    justify-content:center;
+                                    margin:0;
+                                    padding:0;
+                                    width:60px;
+                                    img 
+                                    {
+                                        height:auto;
+                                        margin:0;
+                                        padding:0;
+                                        width:35px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .work-content-elements-block-area-text 
+                    {
+                        display:flex;
+                        justify-content:center;
+                        margin:10px 0 0 0;
+                        h6 
+                        {
+                            font-size:16px;
+                            text-align:center;
+                            width:80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:300px)
+{
+    .work 
+    {
+        height:initial;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                padding:40px 0 40px 0;
+                width:95%;
+                .work-content-elements-block 
+                {
+                    padding:20px 0 20px 0;
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:5.9px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:59px;
+                                width:59px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:50px;
+                                    width:50px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:36px;
+                                        width:36px;
+                                        img 
+                                        {
+                                            width:20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:5.9px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:301px) and (max-width:576px)
+{
+    .work 
+    {
+        height:initial;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                padding:45px 0 45px 0;
+                width:95%;
+                .work-content-elements-block 
+                {
+                    padding:22px 0 22px 0;
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:6.6px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:66px;
+                                width:66px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:56px;
+                                    width:56px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:40px;
+                                        width:40px;
+                                        img 
+                                        {
+                                            width:22px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:6.6px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:767px)
+{
+    .work 
+    {
+        height:initial;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                padding:50px 0 50px 0;
+                width:95%;
+                .work-content-elements-block 
+                {
+                    padding:25px 0 25px 0;
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:7.3px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:73px;
+                                width:73px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:62px;
+                                    width:62px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:44px;
+                                        width:44px;
+                                        img 
+                                        {
+                                            width:25px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:7.3px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1199px)
+{
+    .work 
+    {
+        height:445px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:729px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:8.1px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:81px;
+                                width:81px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:69px;
+                                    width:69px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:49px;
+                                        width:49px;
+                                        img 
+                                        {
+                                            width:28px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:8.1px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px)
+{
+    .work 
+    {
+        height:495px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:810px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:9px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:90px;
+                                width:90px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:77px;
+                                    width:77px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:54px;
+                                        width:54px;
+                                        img 
+                                        {
+                                            width:31px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:9px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    .work 
+    {
+        height:688px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:1125px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:12px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:125px;
+                                width:125px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:107px;
+                                    width:107px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:75px;
+                                        width:75px;
+                                        img 
+                                        {
+                                            width:43px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:12px 0 0 0;
+                            h6 
+                            {
+                                font-size:20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    .work 
+    {
+        height:860px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:1406px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:15px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:156px;
+                                width:156px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:134px;
+                                    width:134px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:93px;
+                                        width:93px;
+                                        img 
+                                        {
+                                            width:53px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:15px 0 0 0;
+                            h6 
+                            {
+                                font-size:25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    .work 
+    {
+        height:1075px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:1758px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:18px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:195px;
+                                width:195px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:168px;
+                                    width:168px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:116px;
+                                        width:116px;
+                                        img 
+                                        {
+                                            width:66px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:18px 0 0 0;
+                            h6 
+                            {
+                                font-size:31px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px) 
+{
+    .work 
+    {
+        height:1344px;
+        .work-content
+        {
+            .work-content-elements 
+            {
+                width:2198px;
+                .work-content-elements-block 
+                {
+                    .work-content-elements-block-area 
+                    {
+                        .work-content-elements-block-area-heading 
+                        {
+                            margin:22px 0 0 0;
+                        }
+                        .work-content-elements-block-area-icon 
+                        {
+                            .work-content-elements-block-area-icon-ellipse 
+                            {
+                                height:243px;
+                                width:243px;
+                                .work-content-elements-block-area-icon-ellipse-two
+                                {
+                                    height:210px;
+                                    width:210px;
+                                    .work-content-elements-block-area-icon-ellipse-three 
+                                    {
+                                        height:145px;
+                                        width:145px;
+                                        img 
+                                        {
+                                            width:82px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .work-content-elements-block-area-text 
+                        {
+                            margin:22px 0 0 0;
+                            h6 
+                            {
+                                font-size:38px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

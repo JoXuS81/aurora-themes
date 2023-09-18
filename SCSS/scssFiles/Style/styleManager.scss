@@ -1,0 +1,354 @@
+/* 
+Table of Contents
+*/
+
+
+// Fonts
+// Oswald Regular
+@font-face 
+{
+    font-family:"oswald-regular";
+    src:url("../../../Fonts/Oswald/oswaldRegular.ttf");
+}
+
+
+// Mixins
+@mixin h2
+{
+    color:$white;
+    font-family:oswald-regular;
+    font-size:50px;
+}
+@mixin h2_2400
+{
+    font-size:62px;
+}
+@mixin h2_3000
+{
+    font-size:77px;
+}
+@mixin h2_3750
+{
+    font-size:96px;
+}
+@mixin h2_large
+{
+    font-size:120px;
+}
+@mixin h4
+{
+    color:$white;
+    font-family:oswald-regular;
+    font-size:25px;
+}
+@mixin h4_2400
+{
+    font-size:31px;
+}
+@mixin h4_3000
+{
+    font-size:38px;
+}
+@mixin h4_3750
+{
+    font-size:47px;
+}
+@mixin h4_large
+{
+    font-size:58px;
+}
+@mixin h5 
+{
+    color:$white;
+    font-family:oswald-regular;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+@mixin h5_576
+{
+    font-size:16px;
+    font-weight:bold;
+}
+@mixin h5_767
+{
+    font-size:16px;
+    font-weight:bold;
+}
+@mixin h5_1199
+{
+    font-size:16px;
+    font-weight:bold;
+}
+@mixin h5_1399
+{
+    font-size:18px;
+}
+@mixin h5_2400
+{
+    font-size:25px;
+}
+@mixin h5_3000
+{
+    font-size:31px;
+}
+@mixin h5_3750
+{
+    font-size:38px;
+}
+@mixin h5_large
+{
+    font-size:47px;
+}
+@mixin h5_small
+{
+    font-size:16px;
+    font-weight:bold;
+}
+@mixin h6
+{
+    color:$white;
+    font-family:oswald-regular;
+    font-size:18px;
+}
+@mixin h6_2400
+{
+    font-size:22px;
+}
+@mixin h6_3000
+{
+    font-size:27px;
+}
+@mixin h6_3750
+{
+    font-size:33px;
+}
+@mixin h6_large
+{
+    font-size:41px;
+}
+
+
+
+// Variables
+$dark:#161a23;
+$dark-purple:#9500e1;
+$ellipse-large:#c59cda;
+$light-dark:#393944;
+$oreo-dark:#23272f;
+$purple:#cf95ea;
+$white:#ffffff;
+
+
+// Margins and Paddings
+* 
+{
+    margin:0;
+    padding:0;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+    border:0;
+    font:inherit;
+    font-size:100%;
+    line-height:1.5;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+
+// Body
+body 
+{
+    overflow-x:hidden;
+    @import "../Content/mainContainer";
+    h2
+    {
+        @include h2;
+    }
+    h4
+    {
+        @include h4;
+    }
+    h5
+    {
+        @include h5;
+    }
+    h6
+    {
+        @include h6;
+    }
+}
+
+
+// Responsive Design
+@media (max-width:300px)
+{
+    body 
+    {
+        h5
+        {
+            @include h5_small;
+        }
+    }
+}
+
+
+@media (min-width:301px) and (max-width:576px)
+{
+    body 
+    {
+        h5
+        {
+            @include h5_576;
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:767px)
+{
+    body 
+    {
+        h5
+        {
+            @include h5_767;
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1199px)
+{
+    body 
+    {
+        h5
+        {
+            @include h5_1199;
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px)
+{
+    body 
+    {
+        h5
+        {
+            @include h5_1399;
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    body 
+    {
+        h2
+        {
+            @include h2_2400;
+        }
+        h4
+        {
+            @include h4_2400;
+        }
+        h5
+        {
+            @include h5_2400;
+        }
+        h6
+        {
+            @include h6_2400;
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    body 
+    {
+        h2
+        {
+            @include h2_3000;
+        }
+        h4
+        {
+            @include h4_3000;
+        }
+        h5
+        {
+            @include h5_3000;
+        }
+        h6
+        {
+            @include h6_3000;
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    body 
+    {
+        h2
+        {
+            @include h2_3750;
+        }
+        h4
+        {
+            @include h4_3750;
+        }
+        h5
+        {
+            @include h5_3750;
+        }
+        h6
+        {
+            @include h6_3750;
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    body 
+    {
+        h2
+        {
+            @include h2_large;
+        }
+        h4
+        {
+            @include h4_large;
+        }
+        h5
+        {
+            @include h5_large;
+        }
+        h6
+        {
+            @include h6_large;
+        }
+    }
+}
