@@ -51,11 +51,27 @@
             <div class = "main-container">
 
                 <!-- Header -->
-                <header>
+                <header id = "header">
                     <div class = "content">
-                        <div class = "top">
-                            <div class = "container logo-container">
-                                <img class = "img-fluid" src = "Images/Header/Logo.png" alt = "Logo">
+                        <div class = "row top">
+                            <div class = "col-xxl-6 logo">
+                                <img class = "img-fluid" onclick = "window.location = '';" src = "Images/Header/Logo.png" alt = "Logo">
+                            </div>
+                            <div class = "col-xxl-6 menu">
+                                <div class = "lines">
+                                    <div class = "top-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                    <div class = "middle-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                    <div class = "bottom-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class = "bottom">
@@ -80,9 +96,9 @@
                                         </div>
                                         <div class = "button-area">
                                             <div class = "button-container">
-                                                <h4>
+                                                <a href = "mailto:aurorathemes01@gmail.com">
                                                     Contact
-                                                </h4>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -97,16 +113,37 @@
                                 <a href = "https://www.pinterest.com/auroraThemes01/_created/">
                                     <img class = "img-fluid" src = "Images/Header/Pinterest.png" alt = "Pinterest">
                                 </a>
-                                <a href = "https://www.youtube.com/@oxygenthemes1198">
+                                <a href = "https://www.youtube.com/channel/UCPuS9pv3mw-Ua0zGbCdqVBQ">
                                     <img class = "img-fluid" src = "Images/Header/YT.png" alt = "YT">
                                 </a>
+                            </div>
+                        </div>
+                        <div class = "header-content-menuInside">  
+                            <div class = "header-content-menuInside-container">
+                                <div class = "header-content-menuInside-container-logo">
+                                    <img class = "img-fluid" src = "Images/Header/Logo-Light.png" alt = "Logo">
+                                </div>
+                                <div class = "header-content-menuInside-container-options">
+                                    <ul>
+                                        <li class = "header-content-menuInside-container-options-home">
+                                            <a href = "#header">
+                                                HOME
+                                            </a>
+                                        </li>
+                                        <li class = "header-content-menuInside-container-options-work">
+                                            <a href = "#work">
+                                                WORK
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </header>
 
 
-                <div class = "work">
+                <div class = "work" id = "work">
                     <div class = "work-content">
                         <div class = "row work-content-elements">
                             <div class = "col-12 col-md-4 work-content-elements-block work-content-elements-block-one">
@@ -203,6 +240,8 @@
             <script src = 'JS/Bootstrap/bootstrap.min.js'></script>
             <script src = 'JS/Bootstrap/bootstrap.bundle.js'></script>
             <script src = 'JS/Bootstrap/bootstrap.bundle.min.js'></script>
+
+            <script src = "JS/header.js"></script>
 
             <script src = 'JS/pageTop.js'></script>
 
