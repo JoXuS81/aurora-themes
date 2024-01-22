@@ -4,6 +4,18 @@ Table of Contents
 
 
 // Fonts
+// Lexend Deca Regular
+@font-face 
+{
+    font-family:"lexendDeca-regular";
+    src:url("../../../Fonts/Lexend-Deca/LexendDeca-Regular.ttf");
+}
+// Oswald Bold
+@font-face 
+{
+    font-family:"oswald-bold";
+    src:url("../../../Fonts/Oswald/oswaldBold.ttf");
+}
 // Oswald Regular
 @font-face 
 {
@@ -13,6 +25,11 @@ Table of Contents
 
 
 // Mixins
+@mixin a 
+{
+    display:block;
+    margin:20px;
+}
 @mixin h2
 {
     color:$white;
@@ -135,7 +152,12 @@ Table of Contents
 $dark:#161a23;
 $dark-purple:#9500e1;
 $ellipse-large:#c59cda;
+$header-top:#373737;
 $light-dark:#393944;
+$menu:#282828;
+$offers-background:#161a23;
+$offers-borders:#34383f;
+$offers-text:#9ea2a7;
 $oreo-dark:#23272f;
 $purple:#cf95ea;
 $white:#ffffff;
@@ -178,6 +200,10 @@ body
 {
     overflow-x:hidden;
     @import "../Content/mainContainer";
+    a
+    {
+        @include a;
+    }
     h2
     {
         @include h2;

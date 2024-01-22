@@ -51,11 +51,27 @@
             <div class = "main-container">
 
                 <!-- Header -->
-                <header>
+                <header id = "header">
                     <div class = "content">
-                        <div class = "top">
-                            <div class = "container logo-container">
-                                <img class = "img-fluid" src = "Images/Header/Logo.png" alt = "Logo">
+                        <div class = "row top">
+                            <div class = "col-6 logo">
+                                <img class = "img-fluid" onclick = "window.location = '#';" src = "Images/Header/Logo.png" alt = "Logo">
+                            </div>
+                            <div class = "col-6 menu">
+                                <div class = "lines">
+                                    <div class = "top-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                    <div class = "middle-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                    <div class = "bottom-line">
+                                        <div class = "line">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class = "bottom">
@@ -80,9 +96,9 @@
                                         </div>
                                         <div class = "button-area">
                                             <div class = "button-container">
-                                                <h4>
+                                                <a href = "mailto:aurorathemes01@gmail.com">
                                                     Contact
-                                                </h4>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -97,16 +113,37 @@
                                 <a href = "https://www.pinterest.com/auroraThemes01/_created/">
                                     <img class = "img-fluid" src = "Images/Header/Pinterest.png" alt = "Pinterest">
                                 </a>
-                                <a href = "https://www.youtube.com/@oxygenthemes1198">
+                                <a href = "https://www.youtube.com/channel/UCPuS9pv3mw-Ua0zGbCdqVBQ">
                                     <img class = "img-fluid" src = "Images/Header/YT.png" alt = "YT">
                                 </a>
+                            </div>
+                        </div>
+                        <div class = "header-content-menuInside">  
+                            <div class = "header-content-menuInside-container">
+                                <div class = "header-content-menuInside-container-logo">
+                                    <img class = "img-fluid" src = "Images/Header/Logo-Light.png" alt = "Logo">
+                                </div>
+                                <div class = "header-content-menuInside-container-options">
+                                    <ul>
+                                        <li class = "header-content-menuInside-container-options-home">
+                                            <a href = "#header">
+                                                HOME
+                                            </a>
+                                        </li>
+                                        <li class = "header-content-menuInside-container-options-work">
+                                            <a href = "#work">
+                                                WORK
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </header>
 
 
-                <div class = "work">
+                <section class = "work" id = "work">
                     <div class = "work-content">
                         <div class = "row work-content-elements">
                             <div class = "col-12 col-md-4 work-content-elements-block work-content-elements-block-one">
@@ -180,7 +217,102 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+
+
+                <section class = "offers">
+                    <div class = "offers-container">
+                        <div class = "offers-container-headingArea">
+                            <div class = "offers-container-headingArea-content">
+                                <div class = "offers-container-headingArea-content-top">
+                                    <div class = "offers-container-headingArea-content-top-content">
+                                        <h6>
+                                            OFFERS
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class = "offers-container-headingArea-content-middle">
+                                    <div class = "offers-container-headingArea-content-middle-content">
+                                        <h4>
+                                            Themes Crafted For You
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class = "offers-container-headingArea-content-bottom">
+                                    <div class = "offers-container-headingArea-content-bottom-content">
+                                        <h6>
+                                            Every template/theme is well documented, with detailed explanation from install process to customize options.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "offers-container-themes">
+                            <div class = "offers-container-themes-content">
+                                <div class = "offers-container-themes-content-themeArea" onclick = "window.location = 'https://www.epicpxls.com/items/via-travel-adventure-html-web-template';">
+                                    <div class = "offers-container-themes-content-themeArea-img">
+                                        <img class = "img-fluid" src = "Images/Offers/Via.webp" alt = "Via">
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-price">
+                                        <h6>
+                                            6.00$
+                                        </h6>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-name">
+                                        <h5>
+                                            Via
+                                        </h5>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-type">
+                                        <h6>
+                                            HTML Web Template
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class = "offers-container-themes-content-themeArea" onclick = "window.location = 'https://www.epicpxls.com/items/gamedust-web-theme-for-figma';">
+                                    <div class = "offers-container-themes-content-themeArea-img">
+                                        <img class = "img-fluid" src = "Images/Offers/Gamedust.webp" alt = "Gamedust">
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-price">
+                                        <h6>
+                                            6.00$
+                                        </h6>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-name">
+                                        <h5>
+                                            Gamedust
+                                        </h5>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-type">
+                                        <h6>
+                                            Web Theme for Figma
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class = "offers-container-themes-content-themeArea" onclick = "window.location = 'https://www.templatemonster.com/website-templates/foodex-restaurants-food-delivery-companies-html-web-template-325819.html';">
+                                    <div class = "offers-container-themes-content-themeArea-img">
+                                        <img class = "img-fluid" src = "Images/Offers/FoodeX.webp" alt = "FoodeX">
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-price">
+                                        <h6>
+                                            14.00$
+                                        </h6>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-name">
+                                        <h5>
+                                            FoodeX
+                                        </h5>
+                                    </div>
+                                    <div class = "offers-container-themes-content-themeArea-type">
+                                        <h6>
+                                            HTML Web Template
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
                 <!-- Footer -->
@@ -203,6 +335,8 @@
             <script src = 'JS/Bootstrap/bootstrap.min.js'></script>
             <script src = 'JS/Bootstrap/bootstrap.bundle.js'></script>
             <script src = 'JS/Bootstrap/bootstrap.bundle.min.js'></script>
+
+            <script src = "JS/header.js"></script>
 
             <script src = 'JS/pageTop.js'></script>
 

@@ -1,0 +1,118 @@
+.offers 
+{
+    background:$offers-background;
+    display:none;
+    padding:89px 0 89px 0;
+    .offers-container 
+    {
+        .offers-container-headingArea 
+        {
+            display:flex;
+            justify-content:center;
+            .offers-container-headingArea-content 
+            {
+                .offers-container-headingArea-content-bottom 
+                {
+                    margin:15px 0 0 0;
+                    .offers-container-headingArea-content-bottom-content 
+                    {
+                        h6 
+                        {
+                            color:$offers-text;
+                            font-size:16px;
+                            text-align:center;
+                            width:500px;
+                        }
+                    }
+                }
+                .offers-container-headingArea-content-middle 
+                {
+                    margin:15px 0 0 0;
+                    .offers-container-headingArea-content-middle-content 
+                    {
+                        width:100%;
+                        h4 
+                        {
+                            font-family:lexendDeca-regular;
+                            text-align:center;
+                        }
+                    }
+                }
+                .offers-container-headingArea-content-top 
+                {
+                    display:flex;
+                    justify-content:center;
+                    .offers-container-headingArea-content-top-content 
+                    {   
+                        align-items:center;
+                        border:1px solid $offers-borders;
+                        display:flex;
+                        height:45px;
+                        justify-content:center;
+                        width:130px;
+                        h6 
+                        {
+                            font-size:16px;
+                            text-align:center;
+                        }
+                    }
+                }
+            }
+        }
+        .offers-container-themes 
+        {
+            display:flex;
+            font-size:0;
+            justify-content:center;
+            margin:79px 0 0 0;
+            padding:0;
+            .offers-container-themes-content 
+            {
+                display:grid;
+                grid-gap:35px;
+                grid-template-columns:auto auto auto;
+                margin:0;
+                .offers-container-themes-content-themeArea
+                {
+                    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+                    cursor:pointer;
+                    display:inline-block;
+                    .offers-container-themes-content-themeArea-img 
+                    {
+                        img 
+                        {
+                            height:auto;
+                            width:469px;
+                        }
+                    }
+                    .offers-container-themes-content-themeArea-name 
+                    {
+                        margin:9px 0 0 0;
+                        h5 
+                        {
+                            font-family:oswald-bold;
+                        }
+                    }
+                    .offers-container-themes-content-themeArea-price 
+                    {
+                        margin:19px 0 0 0;
+                        width:100%;
+                        h6 
+                        {
+                            font-size:16px;
+                            text-align:center;
+                        }
+                    }
+                    .offers-container-themes-content-themeArea-type 
+                    {
+                        margin:0 0 19px 0;
+                        h6 
+                        {
+                            text-align:center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
