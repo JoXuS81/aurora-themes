@@ -36,6 +36,22 @@ Table of Contents
     font-family:oswald-regular;
     font-size:50px;
 }
+@mixin h2_576
+{
+    font-size:32px;
+}
+@mixin h2_767
+{
+    font-size:36px;
+}
+@mixin h2_1199
+{
+    font-size:40px;
+}
+@mixin h2_1399
+{
+    font-size:45px;
+}
 @mixin h2_2400
 {
     font-size:62px;
@@ -52,11 +68,31 @@ Table of Contents
 {
     font-size:120px;
 }
+@mixin h2_small
+{
+    font-size:29px;
+}
 @mixin h4
 {
     color:$white;
     font-family:oswald-regular;
     font-size:25px;
+}
+@mixin h4_576
+{
+    font-size:16px;
+}
+@mixin h4_767
+{
+    font-size:18px;
+}
+@mixin h4_1199
+{
+    font-size:20px;
+}
+@mixin h4_1399
+{
+    font-size:22px;
 }
 @mixin h4_2400
 {
@@ -73,6 +109,10 @@ Table of Contents
 @mixin h4_large
 {
     font-size:58px;
+}
+@mixin h4_small
+{
+    font-size:16px;
 }
 @mixin h5 
 {
@@ -129,6 +169,22 @@ Table of Contents
     font-family:oswald-regular;
     font-size:18px;
 }
+@mixin h6_576
+{
+    font-size:16px;
+}
+@mixin h6_767
+{
+    font-size:16px;
+}
+@mixin h6_1199
+{
+    font-size:16px;
+}
+@mixin h6_1399
+{
+    font-size:16px;
+}
 @mixin h6_2400
 {
     font-size:22px;
@@ -144,6 +200,10 @@ Table of Contents
 @mixin h6_large
 {
     font-size:41px;
+}
+@mixin h6_small
+{
+    font-size:16px;
 }
 
 
@@ -228,9 +288,21 @@ body
 {
     body 
     {
+        h2
+        {
+            @include h2_small;
+        }
+        h4
+        {
+            @include h4_small;
+        }
         h5
         {
             @include h5_small;
+        }
+        h6
+        {
+            @include h6_small;
         }
     }
 }
@@ -240,9 +312,21 @@ body
 {
     body 
     {
+        h2
+        {
+            @include h2_576;
+        }
+        h4
+        {
+            @include h4_576;
+        }
         h5
         {
             @include h5_576;
+        }
+        h6
+        {
+            @include h6_576;
         }
     }
 }
@@ -252,9 +336,21 @@ body
 {
     body 
     {
+        h2
+        {
+            @include h2_767;
+        }
+        h4
+        {
+            @include h4_767;
+        }
         h5
         {
             @include h5_767;
+        }
+        h6
+        {
+            @include h6_767;
         }
     }
 }
@@ -264,9 +360,21 @@ body
 {
     body 
     {
+        h2
+        {
+            @include h2_1199;
+        }
+        h4
+        {
+            @include h4_1199;
+        }
         h5
         {
             @include h5_1199;
+        }
+        h6
+        {
+            @include h6_1199;
         }
     }
 }
@@ -276,9 +384,21 @@ body
 {
     body 
     {
+        h2
+        {
+            @include h2_1399;
+        }
+        h4
+        {
+            @include h4_1399;
+        }
         h5
         {
             @include h5_1399;
+        }
+        h6
+        {
+            @include h6_1399;
         }
     }
 }
