@@ -209,11 +209,11 @@ body .main-container header .content .header-content-menuInside {
   align-items: center;
   background: #282828;
   display: flex;
-  height: 339px;
+  height: 450px;
   justify-content: center;
   left: 0;
   position: fixed;
-  top: -250px;
+  top: -350px;
   transition: top 1s;
   width: 100%;
   z-index: 2;
@@ -663,7 +663,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 200px;
+    height: 265px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -712,7 +712,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 222px;
+    height: 295px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -761,7 +761,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 247px;
+    height: 328px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -810,7 +810,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 274px;
+    height: 364px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -859,7 +859,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 305px;
+    height: 405px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -908,7 +908,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 339px;
+    height: 450px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -957,7 +957,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 424px;
+    height: 563px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -1006,7 +1006,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 530px;
+    height: 704px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -1055,7 +1055,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 663px;
+    height: 880px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -1104,7 +1104,7 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 829px;
+    height: 1100px;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -1649,11 +1649,11 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 200px;
+    height: 265px;
     justify-content: center;
     left: 0;
     position: fixed;
-    top: -148px;
+    top: -206px;
     transition: top 1s;
     width: 100%;
     z-index: 2;
@@ -2213,11 +2213,11 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 222px;
+    height: 295px;
     justify-content: center;
     left: 0;
     position: fixed;
-    top: -164px;
+    top: -229px;
     transition: top 1s;
     width: 100%;
     z-index: 2;
@@ -2762,11 +2762,11 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 247px;
+    height: 328px;
     justify-content: center;
     left: 0;
     position: fixed;
-    top: -182px;
+    top: -255px;
     transition: top 1s;
     width: 100%;
     z-index: 2;
@@ -3224,11 +3224,11 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 274px;
+    height: 364px;
     justify-content: center;
     left: 0;
     position: fixed;
-    top: -202px;
+    top: -283px;
     transition: top 1s;
     width: 100%;
     z-index: 2;
@@ -3325,11 +3325,11 @@ body .main-container header .content .top .menu .lines .top-line .line {
     align-items: center;
     background: #282828;
     display: flex;
-    height: 305px;
+    height: 405px;
     justify-content: center;
     left: 0;
     position: fixed;
-    top: -225px;
+    top: -315px;
     transition: top 1s;
     width: 100%;
     z-index: 2;
@@ -3419,8 +3419,8 @@ body .main-container header .content .top .menu .lines .top-line .line {
     font-size: 31px;
   }
   body .main-container header .content .header-content-menuInside {
-    height: 424px;
-    top: -312px;
+    height: 563px;
+    top: -438px;
   }
   body .main-container header .content .header-content-menuInside .header-content-menuInside-container .header-content-menuInside-container-logo img {
     width: 110px;
@@ -3479,8 +3479,8 @@ body .main-container header .content .top .menu .lines .top-line .line {
     font-size: 38px;
   }
   body .main-container header .content .header-content-menuInside {
-    height: 530px;
-    top: -390px;
+    height: 704px;
+    top: -548px;
   }
   body .main-container header .content .header-content-menuInside .header-content-menuInside-container .header-content-menuInside-container-logo img {
     width: 137px;
@@ -3545,8 +3545,8 @@ body .main-container header .content .top .menu .lines .top-line .line {
     font-size: 47px;
   }
   body .main-container header .content .header-content-menuInside {
-    height: 663px;
-    top: -488px;
+    height: 880px;
+    top: -685px;
   }
   body .main-container header .content .header-content-menuInside .header-content-menuInside-container .header-content-menuInside-container-logo img {
     width: 171px;
@@ -3611,8 +3611,8 @@ body .main-container header .content .top .menu .lines .top-line .line {
     font-size: 58px;
   }
   body .main-container header .content .header-content-menuInside {
-    height: 829px;
-    top: -610px;
+    height: 1100px;
+    top: -856px;
   }
   body .main-container header .content .header-content-menuInside .header-content-menuInside-container .header-content-menuInside-container-logo img {
     width: 213px;
@@ -3961,6 +3961,198 @@ body .main-container .offers .offers-container .offers-container-themes .offers-
   }
   body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-type {
     margin: 0 0 17px 0;
+  }
+}
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .main-container .offers {
+    padding: 111px 0 111px 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom {
+    margin: 18px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom .offers-container-headingArea-content-bottom-content h6 {
+    font-size: 20px;
+    width: 625px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-middle {
+    margin: 18px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content {
+    border: 1.2px solid #34383f;
+    height: 56px;
+    width: 162px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content h6 {
+    font-size: 20px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes {
+    margin: 98px 0 0 0;
+    padding: 0 62px 0 62px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content {
+    grid-gap: 43px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea {
+    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.4);
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-img img {
+    width: 586px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-name {
+    margin: 11px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price {
+    margin: 23px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price h6 {
+    font-size: 20px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-type {
+    margin: 0 0 23px 0;
+  }
+}
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .main-container .offers {
+    padding: 139px 0 139px 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom {
+    margin: 22px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom .offers-container-headingArea-content-bottom-content h6 {
+    font-size: 25px;
+    width: 781px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-middle {
+    margin: 22px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content {
+    border: 1.5px solid #34383f;
+    height: 70px;
+    width: 202px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content h6 {
+    font-size: 25px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes {
+    margin: 122px 0 0 0;
+    padding: 0 77px 0 77px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content {
+    grid-gap: 53px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea {
+    box-shadow: 3.1px 3.1px 3.1px 3.1px rgba(0, 0, 0, 0.4);
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-img img {
+    width: 733px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-name {
+    margin: 13px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price {
+    margin: 28px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price h6 {
+    font-size: 25px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-type {
+    margin: 0 0 28px 0;
+  }
+}
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .main-container .offers {
+    padding: 174px 0 174px 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom {
+    margin: 27px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom .offers-container-headingArea-content-bottom-content h6 {
+    font-size: 31px;
+    width: 976px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-middle {
+    margin: 27px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content {
+    border: 1.8px solid #34383f;
+    height: 87px;
+    width: 252px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content h6 {
+    font-size: 31px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes {
+    margin: 152px 0 0 0;
+    padding: 0 96px 0 96px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content {
+    grid-gap: 66px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea {
+    box-shadow: 3.8px 3.8px 3.8px 3.8px rgba(0, 0, 0, 0.4);
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-img img {
+    width: 916px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-name {
+    margin: 16px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price {
+    margin: 35px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price h6 {
+    font-size: 31px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-type {
+    margin: 0 0 35px 0;
+  }
+}
+@media (min-width: 3751px) {
+  body .main-container .offers {
+    padding: 218px 0 218px 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom {
+    margin: 33px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-bottom .offers-container-headingArea-content-bottom-content h6 {
+    font-size: 38px;
+    width: 1220px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-middle {
+    margin: 33px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content {
+    border: 2.2px solid #34383f;
+    height: 108px;
+    width: 315px;
+  }
+  body .main-container .offers .offers-container .offers-container-headingArea .offers-container-headingArea-content .offers-container-headingArea-content-top .offers-container-headingArea-content-top-content h6 {
+    font-size: 38px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes {
+    margin: 190px 0 0 0;
+    padding: 0 120px 0 120px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content {
+    grid-gap: 82px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea {
+    box-shadow: 4.7px 4.7px 4.7px 4.7px rgba(0, 0, 0, 0.4);
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-img img {
+    width: 1145px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-name {
+    margin: 20px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price {
+    margin: 43px 0 0 0;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-price h6 {
+    font-size: 38px;
+  }
+  body .main-container .offers .offers-container .offers-container-themes .offers-container-themes-content .offers-container-themes-content-themeArea .offers-container-themes-content-themeArea-type {
+    margin: 0 0 43px 0;
   }
 }
 body .main-container .work {

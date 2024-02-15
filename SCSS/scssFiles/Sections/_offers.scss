@@ -497,3 +497,335 @@
         }
     }
 }
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    .offers 
+    {
+        padding:111px 0 111px 0;
+        .offers-container 
+        {
+            .offers-container-headingArea 
+            {
+                .offers-container-headingArea-content 
+                {
+                    .offers-container-headingArea-content-bottom 
+                    {
+                        margin:18px 0 0 0;
+                        .offers-container-headingArea-content-bottom-content 
+                        {
+                            h6 
+                            {
+                                font-size:20px;
+                                width:625px;
+                            }
+                        }
+                    }
+                    .offers-container-headingArea-content-middle 
+                    {
+                        margin:18px 0 0 0;
+                    }
+                    .offers-container-headingArea-content-top 
+                    {
+                        .offers-container-headingArea-content-top-content 
+                        {   
+                            border:1.2px solid $offers-borders;
+                            height:56px;
+                            width:162px;
+                            h6 
+                            {
+                                font-size:20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .offers-container-themes 
+            {
+                margin:98px 0 0 0;
+                padding:0 62px 0 62px;
+                .offers-container-themes-content 
+                {
+                    grid-gap:43px;
+                    .offers-container-themes-content-themeArea
+                    {
+                        box-shadow:2.5px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.4);
+                        .offers-container-themes-content-themeArea-img 
+                        {
+                            img 
+                            {
+                                width:586px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-name 
+                        {
+                            margin:11px 0 0 0;
+                        }
+                        .offers-container-themes-content-themeArea-price 
+                        {
+                            margin:23px 0 0 0;
+                            h6 
+                            {
+                                font-size:20px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-type 
+                        {
+                            margin:0 0 23px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    .offers 
+    {
+        padding:139px 0 139px 0;
+        .offers-container 
+        {
+            .offers-container-headingArea 
+            {
+                .offers-container-headingArea-content 
+                {
+                    .offers-container-headingArea-content-bottom 
+                    {
+                        margin:22px 0 0 0;
+                        .offers-container-headingArea-content-bottom-content 
+                        {
+                            h6 
+                            {
+                                font-size:25px;
+                                width:781px;
+                            }
+                        }
+                    }
+                    .offers-container-headingArea-content-middle 
+                    {
+                        margin:22px 0 0 0;
+                    }
+                    .offers-container-headingArea-content-top 
+                    {
+                        .offers-container-headingArea-content-top-content 
+                        {   
+                            border:1.5px solid $offers-borders;
+                            height:70px;
+                            width:202px;
+                            h6 
+                            {
+                                font-size:25px;
+                            }
+                        }
+                    }
+                }
+            }
+            .offers-container-themes 
+            {
+                margin:122px 0 0 0;
+                padding:0 77px 0 77px;
+                .offers-container-themes-content 
+                {
+                    grid-gap:53px;
+                    .offers-container-themes-content-themeArea
+                    {
+                        box-shadow:3.1px 3.1px 3.1px 3.1px rgba(0, 0, 0, 0.4);
+                        .offers-container-themes-content-themeArea-img 
+                        {
+                            img 
+                            {
+                                width:733px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-name 
+                        {
+                            margin:13px 0 0 0;
+                        }
+                        .offers-container-themes-content-themeArea-price 
+                        {
+                            margin:28px 0 0 0;
+                            h6 
+                            {
+                                font-size:25px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-type 
+                        {
+                            margin:0 0 28px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    .offers 
+    {
+        padding:174px 0 174px 0;
+        .offers-container 
+        {
+            .offers-container-headingArea 
+            {
+                .offers-container-headingArea-content 
+                {
+                    .offers-container-headingArea-content-bottom 
+                    {
+                        margin:27px 0 0 0;
+                        .offers-container-headingArea-content-bottom-content 
+                        {
+                            h6 
+                            {
+                                font-size:31px;
+                                width:976px;
+                            }
+                        }
+                    }
+                    .offers-container-headingArea-content-middle 
+                    {
+                        margin:27px 0 0 0;
+                    }
+                    .offers-container-headingArea-content-top 
+                    {
+                        .offers-container-headingArea-content-top-content 
+                        {   
+                            border:1.8px solid $offers-borders;
+                            height:87px;
+                            width:252px;
+                            h6 
+                            {
+                                font-size:31px;
+                            }
+                        }
+                    }
+                }
+            }
+            .offers-container-themes 
+            {
+                margin:152px 0 0 0;
+                padding:0 96px 0 96px;
+                .offers-container-themes-content 
+                {
+                    grid-gap:66px;
+                    .offers-container-themes-content-themeArea
+                    {
+                        box-shadow:3.8px 3.8px 3.8px 3.8px rgba(0, 0, 0, 0.4);
+                        .offers-container-themes-content-themeArea-img 
+                        {
+                            img 
+                            {
+                                width:916px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-name 
+                        {
+                            margin:16px 0 0 0;
+                        }
+                        .offers-container-themes-content-themeArea-price 
+                        {
+                            margin:35px 0 0 0;
+                            h6 
+                            {
+                                font-size:31px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-type 
+                        {
+                            margin:0 0 35px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    .offers 
+    {
+        padding:218px 0 218px 0;
+        .offers-container 
+        {
+            .offers-container-headingArea 
+            {
+                .offers-container-headingArea-content 
+                {
+                    .offers-container-headingArea-content-bottom 
+                    {
+                        margin:33px 0 0 0;
+                        .offers-container-headingArea-content-bottom-content 
+                        {
+                            h6 
+                            {
+                                font-size:38px;
+                                width:1220px;
+                            }
+                        }
+                    }
+                    .offers-container-headingArea-content-middle 
+                    {
+                        margin:33px 0 0 0;
+                    }
+                    .offers-container-headingArea-content-top 
+                    {
+                        .offers-container-headingArea-content-top-content 
+                        {   
+                            border:2.2px solid $offers-borders;
+                            height:108px;
+                            width:315px;
+                            h6 
+                            {
+                                font-size:38px;
+                            }
+                        }
+                    }
+                }
+            }
+            .offers-container-themes 
+            {
+                margin:190px 0 0 0;
+                padding:0 120px 0 120px;
+                .offers-container-themes-content 
+                {
+                    grid-gap:82px;
+                    .offers-container-themes-content-themeArea
+                    {
+                        box-shadow:4.7px 4.7px 4.7px 4.7px rgba(0, 0, 0, 0.4);
+                        .offers-container-themes-content-themeArea-img 
+                        {
+                            img 
+                            {
+                                width:1145px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-name 
+                        {
+                            margin:20px 0 0 0;
+                        }
+                        .offers-container-themes-content-themeArea-price 
+                        {
+                            margin:43px 0 0 0;
+                            h6 
+                            {
+                                font-size:38px;
+                            }
+                        }
+                        .offers-container-themes-content-themeArea-type 
+                        {
+                            margin:0 0 43px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
