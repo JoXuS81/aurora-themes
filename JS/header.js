@@ -1,7 +1,8 @@
 const hamburgerMenu = document.querySelector(".lines");
 const menuInside = document.querySelector(".header-content-menuInside");
 const menuOptionHome = document.querySelector(".header-content-menuInside-container-options-home");
-const menuOptionOffers = document.querySelector(".header-content-menuInside-container-options-offers")
+const menuOptionOffers = document.querySelector(".header-content-menuInside-container-options-offers");
+const menuOptionProcess = document.querySelector(".header-content-menuInside-container-options-process");
 const menuOptionWork = document.querySelector(".header-content-menuInside-container-options-work");
 
 
@@ -23,6 +24,14 @@ menuOptionHome.addEventListener("click", () =>
 });
 
 menuOptionOffers.addEventListener("click", () => 
+{
+    hamburgerMenu.classList.remove("changeLines");
+    hamburgerMenu.classList.add("lines");
+    menuInside.classList.remove("showMenu");
+    menuInside.classList.add("header-content-menuInside");
+});
+
+menuOptionProcess.addEventListener("click", () => 
 {
     hamburgerMenu.classList.remove("changeLines");
     hamburgerMenu.classList.add("lines");
